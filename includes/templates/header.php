@@ -84,7 +84,7 @@
 		<div class="contenedor clearfix">
 			<div class="logo">
                 <a href="index.php">
-                    <img src="//img/logo.svg" alt="logo gdlwebcamp">
+                    <img src="../img/logo.svg" alt="logo gdlwebcamp">
                 </a>
 			</div>
 			<!--logo-->
