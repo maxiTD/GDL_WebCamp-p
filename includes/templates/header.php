@@ -4,7 +4,7 @@
     $pagina = str_replace(".php", "", $archivo);
 
     // Definir archivo para cachear (puede ser .php también)
-	$archivoCache = 'cache/'.$pagina.'.php';
+	$archivoCache = '../../cache/'.$pagina.'.php';
 	// Cuanto tiempo deberá estar este archivo almacenado
 	$tiempo = 36000;
 	// Checar que el archivo exista, el tiempo sea el adecuado y muestralo
