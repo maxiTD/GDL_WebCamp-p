@@ -97,8 +97,8 @@ $transaccion->setAmount($cantidad)
             ->setInvoiceNumber($ID_registro);
 
 $redireccionar = new RedirectUrls();
-$redireccionar->setReturnUrl(URL_SITIO . "/pago_finalizado.php?&id_pago={$ID_registro}")
-              ->setCancelUrl(URL_SITIO . "/pago_finalizado.php?&id_pago={$ID_registro}");
+$redireccionar->setReturnUrl("https://gdlwebcamp-mmtd.herokuapp.com/pago_finalizado.php?&id_pago={$ID_registro}")
+              ->setCancelUrl("https://gdlwebcamp-mmtd.herokuapp.com/pago_finalizado.php?&id_pago={$ID_registro}");
 
 $pago = new Payment();
 $pago->setIntent('sale')

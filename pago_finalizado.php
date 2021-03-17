@@ -1,6 +1,6 @@
 <?php
-echo "pagina de pago finalizado...";
-die("pagina de pago finalizado...");?>
+//echo "pagina de pago finalizado...";
+//die("pagina de pago finalizado...");?>
 <?php include_once 'includes/templates/header.php';
 
 use PayPal\Rest\ApiContext;
